@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API OpenWeatherMap project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" class="search-bar" placeholder="Introduce a city" required>
+      <button name="button1">
+          <img src="search.png" class="button_search" alt="" />
+        </svg></button>
+        
+    </div>
+    <div class="weather.loading">
+      <h1 class="city">Weather in ... </h1>
+      <h2 class="temp">LOADING</h2>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+        <div class="description"> ... </div>
+      </div>
+      <div class="humidity">Humidity: --%</div>
+      <div class="pressure">Pressure: ----hPa</div>
+      <div class="wind">Wind speed: --- km/h</div>
+    </div>
+  </div>
+ 
+</body>
+
+</html>
